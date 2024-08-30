@@ -852,7 +852,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/NFT.sol": "NFT"
+			"contracts/NFT_Exp.sol": "NFT"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -994,12 +994,12 @@
 				"dweb:/ipfs/QmVBEei6aTnvYNZp2CHYVNKyZS4q1KkjANfY39WVXZXVoT"
 			]
 		},
-		"contracts/NFT.sol": {
-			"keccak256": "0x827c33000728ed716389434c571ca764021034c4d6da0a82f5e118d55a40bee3",
+		"contracts/NFT_Exp.sol": {
+			"keccak256": "0xff4ba80b24e6950bdbaf6c5a7af2e24d36c63ca80ef00be09a7d9f1ec197b3aa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed74f553a8c1493eb0690dc50668819b1c197a9ca410ff86c69c4fb64e4073b4",
-				"dweb:/ipfs/QmfGTSJWkvFZWR8p1HuDPp86Btax56Gmb5F9i8X6YAZ8BR"
+				"bzz-raw://3ef6365b7d5b404b03f11c5725934f3bd6e9ed1775b1ecb75fac6a63cc70eacb",
+				"dweb:/ipfs/QmbKZ5BYegXDuCMPZdtnbk7TPs9W7nVyYzBHU85JVChgtL"
 			]
 		}
 	},

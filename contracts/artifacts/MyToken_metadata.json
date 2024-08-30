@@ -175,6 +175,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -200,6 +213,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -313,27 +339,19 @@
 	},
 	"sources": {
 		"contracts/ERC20.sol": {
-			"keccak256": "0xded6887edabf70089f522262b29d94e87b8b5a0c10fdc3410d6c34d442a19229",
+			"keccak256": "0xf6b669ac748e6189df7221fbb1bfa14e0c8a9626088a3628b4f074a4108f625d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9561c73589808b94578318db1d7b925fdd7e60829f03b25803ce9671fb02d84",
-				"dweb:/ipfs/QmYznuKFp75P9Tnj6MQtBSDXNFtNVixiYVfL7evkk83rF3"
-			]
-		},
-		"contracts/IERC20.sol": {
-			"keccak256": "0x08868f6e53e0cfded813495b9939a4d32b90836706c853ce05b34b8c83367f66",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://3a5cb517d8b03c74c9a7b67a2eaa5f3ad5ef3bf5bc3063dd558833761fbfb796",
-				"dweb:/ipfs/QmPi9Weq9ekPGteozyseKkAAtKgREEVwpQDgcoPPuBhq3p"
+				"bzz-raw://5efa123f6e1591b622abad83f0cbcafbd49a87ec328bdff9cfd40220d1f8909a",
+				"dweb:/ipfs/QmXZrrquxwnG2ApKjikWNMfJ2EdBPeoBEoakysjz2Tuh1D"
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0x001bdf08a312f02185f168dfc1d0418a8738c42c0cbcb76d51b11b921969e5ae",
+			"keccak256": "0xa5865779f01851c99472b62f777867f579a870d8b7aafa6dbe181d92a2818cbd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e61d188ce99385e588ab39208c00d2759b461c20f41286bd757daaca3dbe36d1",
-				"dweb:/ipfs/QmdcKZ7e8iyjf41ZBvkKjPj6FqCz5Fpbp2Lcpq8JtZj29F"
+				"bzz-raw://6b291c83ce25dc7a9430e39978a40da946b6af9b8fecbecdb4d1b7d5faea5649",
+				"dweb:/ipfs/QmaaQy2JYQ2i814wKBb1FN8TTNxrPLVFFJwWZHDcsGrDZ7"
 			]
 		}
 	},

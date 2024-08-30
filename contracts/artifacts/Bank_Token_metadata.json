@@ -1,0 +1,237 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "MAX_WITHDRAWAL",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MIN_DEPOSIT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getUserProfile",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "setUserProfile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract ERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transactionState",
+				"outputs": [
+					{
+						"internalType": "enum Bank_Token.TransactionState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "userProfiles",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Bank_Token.sol": "Bank_Token"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Bank_Token.sol": {
+			"keccak256": "0xd41f7a85784ba7f3f7bcea98dc005c62c72a41c53e9de95d34ac91e9a0092a00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e00fa1e62874be48c76e1863592d6f82c14b1b83df68cea4374309cd6129224",
+				"dweb:/ipfs/QmWHiJoMZittLrAmEEAiaFnB8SY76A3y6p1B9U8x8Ywnvf"
+			]
+		},
+		"contracts/ERC20.sol": {
+			"keccak256": "0xf6b669ac748e6189df7221fbb1bfa14e0c8a9626088a3628b4f074a4108f625d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5efa123f6e1591b622abad83f0cbcafbd49a87ec328bdff9cfd40220d1f8909a",
+				"dweb:/ipfs/QmXZrrquxwnG2ApKjikWNMfJ2EdBPeoBEoakysjz2Tuh1D"
+			]
+		},
+		"contracts/MyToken.sol": {
+			"keccak256": "0xa5865779f01851c99472b62f777867f579a870d8b7aafa6dbe181d92a2818cbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b291c83ce25dc7a9430e39978a40da946b6af9b8fecbecdb4d1b7d5faea5649",
+				"dweb:/ipfs/QmaaQy2JYQ2i814wKBb1FN8TTNxrPLVFFJwWZHDcsGrDZ7"
+			]
+		}
+	},
+	"version": 1
+}
